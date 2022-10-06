@@ -1,0 +1,13 @@
+{
+  "nombre": "Federica Montseny",
+  "estudiantes": [
+    {
+      "nombre":"Peppa",
+      "apellidos":"Pig"
+    },
+    {
+      "nombre":"Bob",
+      "apellidos":"Esponja"
+    }
+  ]
+}

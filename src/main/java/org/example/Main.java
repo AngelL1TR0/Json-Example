@@ -10,9 +10,9 @@ public class Main {
 
         try {
             ObjectMapper om = new ObjectMapper();
+            Highschool federica = om.readValue(new File(Main.class.getResource("/instituto.json").toURI()), Highschool.class);
 
-            om.readValue(new File(Main.class.getResource("/instituto.json").toURI()), Highschool.class);
-
+            System.out.println(federica.toString());
 
         } catch (Exception e) {
             e.printStackTrace();
