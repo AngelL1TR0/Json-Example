@@ -3,11 +3,13 @@
   "estudiantes": [
     {
       "nombre":"Peppa",
-      "apellidos":"Pig"
+      "apellidos":"Pig",
+      "edad": 20
     },
     {
       "nombre":"Bob",
-      "apellidos":"Esponja"
+      "apellidos":"Esponja",
+      "edad": 22
     }
   ]
 }
